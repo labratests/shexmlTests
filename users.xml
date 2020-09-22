@@ -1,0 +1,15 @@
+<users>
+ <user id="alice">
+  <name>Alice</name>
+  <knows id="bob" />
+  <knows id="carol" />
+ </user>
+ <user id="bob">
+  <name>Robert</name>
+  <knows id="alice" />
+ </user>
+ <user id="carol">
+  <name>Carole King</name>
+  <knows id="carol" />
+ </user>
+</users>
